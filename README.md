@@ -15,13 +15,16 @@ Saving all results to a CSV file
 ### Setup
 1. Clone this repo
 2. Create a virtual environment and activate it
+
       bash   python -m venv venv
              venv\Scripts\activate
-3. Install dependencies
-4. Create a .env file and add your DeepInfra API key
+4. Install dependencies
+5. Create a .env file and add your DeepInfra API key
+   
       DEEPINFRA_API_KEY=your_key_here
-5. Drop your .mp4 files into the videos/ folder
-6. Run
+7. Drop your .mp4 files into the videos/ folder
+8. Run
+
      bashpython v0.0.3_pipeline.py
 
 Results are saved to output/results.csv with columns: video_file, description, timestamp
