@@ -32,7 +32,7 @@ Results are saved to output/results.csv with columns: video_file, description, t
 
 ### Current Limitations
 
-NVIDIA Cosmos3-Nano Reasoner cloud API is not yet publicly live (returns 404) — known issue on NVIDIA developer forums
-DeepInfra hosts Cosmos3-Nano as a video generator, not a reasoner — not suitable for video→text
-Current workaround uses frame extraction + Qwen3-VL which produces high quality descriptions
-Will switch to Cosmos Reasoner NIM once NVIDIA endpoint goes live or GPU access is available
+-> NVIDIA Cosmos3-Nano Reasoner cloud API is not yet publicly live (returns 404) — known issue on NVIDIA developer forums
+-> DeepInfra hosts Cosmos3-Nano as a video generator, not a reasoner — not suitable for video→text
+-> Current workaround uses frame extraction + Qwen3-VL which produces high quality descriptions
+-> Will switch to Cosmos Reasoner NIM once NVIDIA endpoint goes live or GPU access is available
