@@ -17,6 +17,7 @@ Saving all results to a CSV file
 2. Create a virtual environment and activate it
 
       bash   python -m venv venv
+   
              venv\Scripts\activate
 4. Install dependencies
 5. Create a .env file and add your DeepInfra API key
